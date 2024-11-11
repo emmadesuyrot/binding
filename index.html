@@ -7,6 +7,20 @@
 		<link href="assets/direction-1.css" rel="stylesheet">
 		<!-- <link href="assets/direction-2.css" rel="stylesheet"> -->
 		<!-- <link href="assets/direction-3.css" rel="stylesheet"> -->
+			<style>
+				@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+				@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+				@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+			</style>
+
+			<script>
+				const toggleDetails = open => document.querySelectorAll('details').forEach(details => details.open = open)
+			
+				window.addEventListener('beforeprint', () => toggleDetails(true))
+				window.addEventListener('afterprint', () => toggleDetails(false))
+			</script>
 	</head>
 		<main>
 			<article>
