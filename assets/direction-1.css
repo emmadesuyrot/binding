@@ -1,12 +1,23 @@
 .underline {
 	text-decoration: underline;
-	color: salmon;
 	font-size: 6.2rem;
 	font-weight: bolder;
+	color: hotpink;
+}
+
+.styled-line {
+	border: none;
+	border-top: 8px solid hotpink;
+	opacity: 30%;
+	width: 100%;
+	margin: 10px auto;
+	padding: 5px;
+	grid-column: 1 / -1;
 }
 
 .author {
 	padding-top: 20px;
+	font-weight: 500;
 }
 
 .question, .bold {
@@ -14,6 +25,7 @@
 	font-size: 1.3rem;
 	line-height: 1.8rem;
 	font-family: 'Merriweather', serif;
+	font-weight: 400;
 }
 
 blockquote {
@@ -33,9 +45,9 @@ h1 {
 h2 {
 	font-size: 1.4rem;
 	line-height: 1.9rem;
-	color: salmon;
 	font-family: 'Merriweather', serif;
-	font-weight: bold;
+	font-weight: 400;
+	padding-bottom: 1em;
 }
 
 h3 {
@@ -43,8 +55,7 @@ h3 {
 	line-height: 2rem;
 	margin-bottom: var(--spacing);
 	font-family: 'Merriweather', serif;
-	color: orange;
-	text-decoration: underline;
+	font-weight: 600;
 }
 
 p {
@@ -56,11 +67,22 @@ p {
 body {
 	gap: 20px;
 	line-height: 1.5rem;
-	background-color: lavenderblush;
 }
 
 .article-container {
 	grid-template-columns: 1fr; /* Single column layout */
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.footer-1 {
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.footer-2 {
+	grid-template-columns: 1fr;
 	margin: 0 auto;
 	padding: 1rem;
 }
@@ -77,6 +99,16 @@ grid-column: 1 / -1; /* Each element spans the full width */
 
 	.underline {
 		font-size: 7rem;
+	}
+
+	.styled-line {
+		border: none;
+		border-top: 12px solid hotpink;
+		opacity: 30%;
+		width: 100%;
+		margin: 20px auto;
+		padding: 5px;
+		grid-column: 1 / -1;
 	}
 
 	.article-container {
@@ -103,6 +135,14 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	.bold, .question {
 		font-size: 1.9rem;
 		line-height: 2.8rem;
+	}
+
+	.footer-1 {
+		grid-column: 1 / -1;
+	}
+	
+	.footer-2 {
+		grid-column: 1 / -1;
 	}
 
 	h1 {
