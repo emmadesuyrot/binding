@@ -1,6 +1,6 @@
 .underline {
 	text-decoration: underline;
-	color: deeppink;
+	color: purple;
 	font-size: 5rem;
 	font-weight: bolder;
 }
@@ -15,7 +15,6 @@
 }
 
 .author {
-	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
@@ -46,7 +45,7 @@ h3 {
 	line-height: 2rem;
 	margin-bottom: var(--spacing);
 	font-family: 'Merriweather', serif;
-	color: deeppink;
+	color: purple;
 	text-decoration: underline;
 }
 
@@ -64,6 +63,8 @@ body {
 
 .article-container {
 	grid-template-columns: 1fr; /* Single column layout */
+	margin: 0 auto;
+	padding: 1rem;
 }
 
 h1, h2, .content-1, .content-2, .content-3, .content-4, .bold, .question {
@@ -74,6 +75,10 @@ grid-column: 1 / -1; /* Each element spans the full width */
 
 	:root {
 		--spacing:1.5rem;
+	}
+
+	.underline {
+		font-size: 7rem;
 	}
 
 	.article-container {
