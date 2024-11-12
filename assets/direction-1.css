@@ -44,7 +44,7 @@ h1 {
 
 h2 {
 	font-size: 1.4rem;
-	line-height: 1.9rem;
+	line-height: 2rem;
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	padding-bottom: 1em;
@@ -62,6 +62,7 @@ p {
 	font-size: 0.9rem;
 	color: rgb(0, 0, 0);
 	font-family: 'Josefin', sans-serif;
+	font-weight: 300;
 }
 
 body {
@@ -124,6 +125,10 @@ grid-column: 1 / -1; /* Each element spans the full width */
 		grid-column: 1 / -1; /* Spans the entire grid width */
 	}
 
+	.h3-1, .h3-2 {
+		grid-column: 1 / -1;
+	}
+
 	.content-1, .content-2, .content-3, .content-4 {
 		grid-column: 1 / span 3;
 	}
@@ -151,7 +156,7 @@ grid-column: 1 / -1; /* Each element spans the full width */
 
 	h2 {
 		font-size: 2.5rem;
-		line-height: 3rem;
+		line-height: 4rem;
 	}
 
 	h3 {
