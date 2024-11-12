@@ -21,7 +21,6 @@
 }
 
 .question, .bold {
-	padding: 20px;
 	font-size: 1.3rem;
 	line-height: 1.8rem;
 	font-family: 'Merriweather', serif;
@@ -125,8 +124,12 @@ grid-column: 1 / -1; /* Each element spans the full width */
 		grid-column: 1 / -1; /* Spans the entire grid width */
 	}
 
-	.h3-1, .h3-2 {
+	.h3-0, .h3-1, .h3-2, .h3-2, .h3-3 {
 		grid-column: 1 / -1;
+	}
+
+	.quote-1, .quote-2 {
+		grid-column: 1 / span 3;
 	}
 
 	.content-1, .content-2, .content-3, .content-4 {
