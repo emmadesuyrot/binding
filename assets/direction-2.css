@@ -70,7 +70,6 @@ body {
 
 .article-container {
 	grid-template-columns: 1fr;
-	padding: 20px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -139,7 +138,7 @@ body {
 	}
 
 	.bold, .question {
-		font-size: 2rem;
+		/* font-size: 2rem; */
 		line-height: 3.4rem;
 	}
 
@@ -158,9 +157,8 @@ body {
 	.article-container {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		width: 100%;
-		padding: 40px;
-		gap: 10px;
+		gap: 40px;
+		padding: 180px;
 	}
 
 }
