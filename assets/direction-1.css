@@ -71,8 +71,6 @@ body {
 
 .article-container {
 	grid-template-columns: 1fr; /* Single column layout */
-	margin: 0 auto;
-	padding: 15px;
 }
 
 .footer-1 {
@@ -114,9 +112,8 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	.article-container {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		gap: 1rem;
-		max-width: 1200px;
-		margin: 0 auto;
+		gap: 40px;
+		padding: 180px;
 		grid-template-rows: auto;
 	}
 	
