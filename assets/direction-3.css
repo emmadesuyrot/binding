@@ -1,14 +1,9 @@
+
+
 .author {
-	padding-top: 30px;
 	font-weight: 500;
-}
-
-.highlight-beauty {
-	color: #C71585;
-}
-
-.underline {
-	color: #C71585;
+	margin-top: 20px;
+	color: aqua;
 }
 
 .question, .bold {
@@ -16,30 +11,31 @@
 	line-height: 1.8rem;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 300;
-	color: rgb(190, 14, 193);
 	margin-bottom: 1rem;
+	color: white;
 }
 
 footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
+	color: white;
 }
 
 blockquote {
 	font-size: 1.2rem;
 	line-height: 1.8rem;
 	font-family: 'Libre Baskerville', serif;
-	color: rgb(190, 14, 193);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: white;
 }
 
 h1 {
 	font-size: 5rem;
 	line-height: 5.5rem;
-	color: #6B8E23;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
+	color: white;
 }
 
 h2 {
@@ -48,7 +44,8 @@ h2 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
 	padding-bottom: 1em;
-	/* max-width: 14ch; */
+	max-width: 14ch;
+	color: white;
 }
 
 h3 {
@@ -58,6 +55,7 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
 	padding-top: 1em;
+	color: white;
 }
 
 p {
@@ -67,17 +65,21 @@ p {
 	font-weight: 400;
 	text-align: left;
 	margin-bottom: 1rem;
+	color: white;
 }
 
 body {
 	gap: 20px;
 	line-height: 1.5rem;
+	background-color: black;
 }
 
 .article-container {
 	grid-template-columns: 1fr;
 	padding: 20px;
 	gap: 15px;
+	max-width: 100%;
+	color: white;
 }
 
 @media screen and (min-width: 1280px) {
@@ -87,20 +89,18 @@ body {
 	}
 
 	h1 {
-		font-size: 5.8rem;
+		font-size: 4.6rem;
 		grid-column: 1 / -1;
 	}
 
 	.author {
-		grid-column: 1 / -1
+		grid-column: 4 / 5;
 	}
 
 	h2 {
 		font-size: 2rem;
 		line-height: 3.4rem;
 		grid-column: 1 / -1;
-		place-items: center;
-		text-align: center;
 	}
 
 	h3 {
@@ -112,7 +112,6 @@ body {
 	p {
 		font-size: 1.2rem;
 		line-height: 1.8;
-		max-width: 40ch;
 	}
 
 	body {
@@ -123,10 +122,13 @@ body {
 	blockquote {
 		font-size: 1.6rem;
 		line-height: 2.6rem;
+		padding: 15px;
+		border: 1px solid rgb(200, 200, 200);
+		display: inline-block;
 	}
 
 	footer {
-		padding-left: 100px;
+		padding-left: 250px;
 	}
 
 	.content-1 {
@@ -166,7 +168,7 @@ body {
 	.article-container {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		gap: 40px;
+		gap: 60px;
 		padding: 250px;
 		padding-bottom: 0;
 	}
