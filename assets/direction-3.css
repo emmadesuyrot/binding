@@ -96,7 +96,8 @@ body {
 		font-size: 2rem;
 		line-height: 3.4rem;
 		grid-column: 1 / -1;
-		position: center;
+		place-items: center;
+		text-align: center;
 	}
 
 	h3 {
