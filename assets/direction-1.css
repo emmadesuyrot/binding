@@ -1,6 +1,5 @@
 .underline {
 	text-decoration: underline;
-	font-size: 6.2rem;
 	font-weight: bolder;
 	color: hotpink;
 }
@@ -8,7 +7,6 @@
 .styled-line {
 	border: none;
 	border-top: 8px solid hotpink;
-	opacity: 30%;
 	width: 100%;
 	margin: 10px auto;
 	padding: 5px;
@@ -25,6 +23,7 @@
 	line-height: 1.8rem;
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
+	margin-bottom: 1.2rem;
 }
 
 blockquote {
@@ -34,8 +33,8 @@ blockquote {
 }
 
 h1 {
-	font-size: 2.6rem;
-	line-height: 4.2rem;
+	font-size: 5rem;
+	line-height: 4.8rem;
 	color: rgb(0, 0, 0);
 	font-family: 'Merriweather', serif;
 	font-weight: 600;
@@ -62,6 +61,8 @@ p {
 	color: rgb(0, 0, 0);
 	font-family: 'Josefin', sans-serif;
 	font-weight: 300;
+	max-width: 35ch;
+	margin-bottom: 1.2rem;
 }
 
 body {
@@ -71,6 +72,7 @@ body {
 
 .article-container {
 	grid-template-columns: 1fr; /* Single column layout */
+	padding: 20px;
 }
 
 .footer-1 {
@@ -95,14 +97,54 @@ grid-column: 1 / -1; /* Each element spans the full width */
 		--spacing:1.5rem;
 	}
 
-	.underline {
-		font-size: 7rem;
+	h1 {
+		font-size: 12rem;
+		line-height: 12rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	h3 {
+		font-size: 2.3rem;
+		line-height: 2.9rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+		line-height: 1.8;
+		max-width: 60ch;
+		margin-bottom: 1.5rem;
+	}
+
+	body {
+		font-size: 1.2rem;
+		line-height: 1.8;
+	}
+
+	blockquote {
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+	}
+
+	footer {
+		
+	}
+	
+	h1 h2 {
+		grid-column: 1 / -1; /* Spans the entire grid width */
+	}
+
+	.author {
+		font-size: 1.5rem;
+		grid-column: 1 / span 3;
 	}
 
 	.styled-line {
 		border: none;
 		border-top: 12px solid hotpink;
-		opacity: 30%;
 		width: 100%;
 		margin: 20px auto;
 		padding: 5px;
@@ -113,12 +155,8 @@ grid-column: 1 / -1; /* Each element spans the full width */
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 40px;
-		padding: 180px;
+		padding: 200px;
 		grid-template-rows: auto;
-	}
-	
-	h1 h2 {
-		grid-column: 1 / -1; /* Spans the entire grid width */
 	}
 
 	.h3-0, .h3-1, .h3-2, .h3-2, .h3-3 {
@@ -130,7 +168,7 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	}
 
 	.content-1, .content-2, .content-3, .content-4 {
-		grid-column: 1 / span 3;
+		grid-column: 1 / 5;
 	}
 	
 	.bold, .question {
@@ -148,35 +186,6 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	
 	.footer-2 {
 		grid-column: 1 / -1;
-	}
-
-	h1 {
-		font-size: 5rem;
-	}
-
-	h2 {
-		font-size: 2.5rem;
-		line-height: 4rem;
-	}
-
-	h3 {
-		font-size: 2.3rem;
-		line-height: 2.9rem;
-	}
-
-	p {
-		font-size: 1.5rem;
-		line-height: 1.8;
-	}
-
-	body {
-		font-size: 1.4rem;
-		line-height: 1.8;
-	}
-
-	blockquote {
-		font-size: 1.6rem;
-		line-height: 2.6rem;
 	}
 
 }
