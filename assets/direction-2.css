@@ -1,8 +1,11 @@
 
 .author {
-	padding-top: 20px;
+	padding-top: 30px;
 	font-weight: 500;
-	padding-top: 15px;
+}
+
+.underline {
+	font-family: 'DM Sans';
 }
 
 .question, .bold {
@@ -24,6 +27,7 @@
 
 footer {
 	font-family: 'DM Sans';
+	padding: 20px;
 }
 
 blockquote {
@@ -31,6 +35,8 @@ blockquote {
 	line-height: 1.8rem;
 	font-family: 'DM Mono';
 	color: green;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h1 {
@@ -55,6 +61,7 @@ h3 {
 	margin-bottom: var(--spacing);
 	font-family: 'DM Mono';
 	font-weight: 600;
+	padding-top: 1em;
 }
 
 p {
@@ -97,6 +104,7 @@ body {
 	h3 {
 		font-size: 2.3rem;
 		line-height: 2.9rem;
+		padding-top: 0;
 	}
 
 	p {
