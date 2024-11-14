@@ -3,7 +3,7 @@
 .author {
 	font-weight: 500;
 	margin-top: 20px;
-	color: aqua;
+	color: rgb(0, 255, 4);
 }
 
 .question, .bold {
@@ -13,12 +13,14 @@
 	font-weight: 300;
 	margin-bottom: 1rem;
 	color: white;
+	text-decoration: underline;
+	text-decoration-color: rgb(0, 255, 4);
 }
 
 footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
-	color: white;
+	color: rgb(0, 255, 4);
 }
 
 blockquote {
@@ -35,7 +37,7 @@ h1 {
 	line-height: 5.5rem;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
-	color: white;
+	color: rgb(0, 255, 4);
 }
 
 h2 {
@@ -44,7 +46,7 @@ h2 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
 	padding-bottom: 1em;
-	max-width: 14ch;
+	/* max-width: 14ch; */
 	color: white;
 }
 
@@ -55,7 +57,7 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
 	padding-top: 1em;
-	color: white;
+	color: rgb(0, 255, 4);
 }
 
 p {
@@ -94,7 +96,8 @@ body {
 	}
 
 	.author {
-		grid-column: 4 / 5;
+		grid-column: 1 / -1;
+		font-size: 1.5rem;
 	}
 
 	h2 {
