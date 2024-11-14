@@ -1,12 +1,15 @@
 .underline {
 	text-decoration: underline;
 	font-weight: bolder;
-	color: rgb(179, 14, 163);
+	color: rgb(237, 20, 64);
 }
 
 .author {
 	padding-top: 20px;
+	padding-bottom: 40px;
 	font-weight: 500;
+	place-items: center;
+	text-align: center;
 }
 
 .question, .bold {
@@ -33,6 +36,8 @@ h1 {
 	color: rgb(0, 0, 0);
 	font-family: 'Josefin', sans-serif;
 	font-weight: 900;
+	place-items: center;
+	text-align: center;
 }
 
 h2 {
@@ -40,12 +45,13 @@ h2 {
 	line-height: 2rem;
 	font-family: 'Josefin', sans-serif;
 	font-weight: 400;
+	padding-bottom: 40px;
 }
 
 .styled-line {
 	border: none;
-	border-top: 1px solid rgb(215, 215, 215);
-	width: 100%;
+	border-top: 5px solid rgb(237, 20, 64);
+	width: 30%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -56,7 +62,7 @@ h3 {
 	margin-bottom: var(--spacing);
 	font-family: 'Josefin', sans-serif;
 	font-weight: 800;
-	color: rgb(179, 14, 163);
+	color: rgb(237, 20, 64);
 }
 
 p {
@@ -76,13 +82,19 @@ body {
 .article-container {
 	grid-template-columns: 1fr; /* Single column layout */
 	padding: 20px;
+	padding-bottom: 0;
 }
 
-.footer-1 {
+footer {
+	font-family: 'Josefin', sans-serif;
+	font-size: 1rem;
+}
+
+/* .footer-1 {
 	grid-template-columns: 1fr;
 	margin: 0 auto;
-	padding: 1rem;
-}
+	padding-left: 1rem;
+} */
 
 .footer-2 {
 	grid-template-columns: 1fr;
@@ -137,8 +149,8 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	}
 
 	.author {
-		font-size: 1.5rem;
-		grid-column: 1 / span 3;
+		font-size: 1.8rem;
+		grid-column: 2 / 4;
 	}
 
 	.article-container {
@@ -173,6 +185,12 @@ grid-column: 1 / -1; /* Each element spans the full width */
 
 	footer {
 		padding-left: 200px;
+	}
+
+	.footer-2 {
+		padding: 0;
+		color: rgb(237, 20, 64);
+		font-size: 1.5rem;
 	}
 
 }

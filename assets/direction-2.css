@@ -6,6 +6,7 @@
 
 .underline {
 	font-family: 'DM Sans';
+	font-weight: 800;
 }
 
 .question, .bold {
@@ -40,11 +41,12 @@ blockquote {
 }
 
 h1 {
-	font-size: 6rem;
-	line-height: 5.5rem;
+	font-size: 5.2rem;
+	line-height: 6rem;
 	color: rgb(0, 0, 0);
 	font-family: 'DM Mono';
 	font-weight: 600;
+	color: green;
 }
 
 h2 {
