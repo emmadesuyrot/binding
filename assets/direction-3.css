@@ -6,6 +6,12 @@
 	color: rgb(0, 255, 4);
 }
 
+.styled-line {
+		border: none;
+		border-top: 3px solid rgb(0, 255, 4);
+		width: 100%;
+}
+
 .question, .bold {
 	font-size: 1.3rem;
 	line-height: 1.8rem;
@@ -45,6 +51,7 @@ h2 {
 	line-height: 2rem;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
+	padding-top: 1em;
 	padding-bottom: 1em;
 	/* max-width: 14ch; */
 	color: white;
@@ -125,9 +132,19 @@ body {
 	blockquote {
 		font-size: 1.6rem;
 		line-height: 2.6rem;
-		padding: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 15px;
+		padding-bottom: 8px;
 		border: 1px solid rgb(200, 200, 200);
 		display: inline-block;
+	}
+
+	.styled-line {
+		border: none;
+		border-top: 3px solid rgb(0, 255, 4);
+		width: 100%;
+		grid-column: 1 / -1
 	}
 
 	footer {
