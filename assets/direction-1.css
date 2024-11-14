@@ -77,6 +77,9 @@ p {
 body {
 	gap: 20px;
 	line-height: 1.5rem;
+	background: linear-gradient(135deg, #ffffff, #d65a5a, #ff0000);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
 }
 
 .article-container {
@@ -123,7 +126,7 @@ grid-column: 1 / -1; /* Each element spans the full width */
 	}
 
 	h3 {
-		font-size: 2.3rem;
+		font-size: 3rem;
 		line-height: 2.9rem;
 	}
 
