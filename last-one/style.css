@@ -90,10 +90,9 @@ body {
 }
 
 .mobile-nav {
-	background-color: #737373;
+	background-color:rgb(0, 255, 4);
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
-	box-shadow: 0 4px 6px rgba(206, 199, 199, 0.1);
 }
 
 .mobile-nav ul {
@@ -111,12 +110,32 @@ body {
 	margin: 5px 0;
 }
 
+.mobile-nav a {
+	display: block;
+	padding: 12px 20px;
+	color: #141313;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.mobile-nav a:hover {
+	background-color: #000000;
+	color: #f1f1f1;
+}
+
 .article-container {
 	grid-template-columns: 1fr;
 	padding: 20px;
 	gap: 15px;
 	max-width: 100%;
 	color: white;
+}
+
+.active-nav a.active {
+	background-color: #0dc80a;
+	color: #fff;
+	font-weight: bold;
+	border: 2px solid #0056b3;
 }
 
 @media screen and (min-width: 1280px) {
