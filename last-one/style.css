@@ -89,6 +89,28 @@ body {
 	background-color: black;
 }
 
+.mobile-nav {
+	background-color: #737373;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 0 4px 6px rgba(206, 199, 199, 0.1);
+}
+
+.mobile-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+}
+
+.mobile-nav li {
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
+}
+
 .article-container {
 	grid-template-columns: 1fr;
 	padding: 20px;
@@ -184,7 +206,7 @@ body {
 	.bold, .question {
 		font-size: 2rem;
 		line-height: 3.4rem;
-		grid-column: 1 / -1
+		grid-column: 2 / 5;
 	}
 
 	.h3-0, .h3-1, .h3-2, .h3-3 {
