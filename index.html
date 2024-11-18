@@ -1,13 +1,27 @@
 <html>
 	<head>
+		<title>Binding</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../assets/reset.css" rel="stylesheet">
+		<link href="../assets/common.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+			<style>
+
+			</style>
+		<script>
+			const toggleDetails = open => document.querySelectorAll('details').forEach(details => details.open = open)
+			window.addEventListener('beforeprint', () => toggleDetails(true))
+			window.addEventListener('afterprint', () => toggleDetails(false))
+		</script>
 		<title>
 			My landing page
 		</title>
 	</head>
 	<body>
 		<h1>My landing Page</h1>
-		<nav>
+		<p>This is my colophone</p>
+		<nav class="mobile-nav">
 			<ul>
 				<li>
 					<a href="article-name/">First Article</a>
