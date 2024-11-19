@@ -22,10 +22,20 @@
 	text-decoration-color:  #ffff00;
 }
 
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color:  #ffff00;
+	border-radius: 50%;
+	font-size: 2rem;
+	z-index: 1000;
+}
+
 footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
-	color:  #ffff00;
+	color: #ffff00;
 }
 
 blockquote {
@@ -75,7 +85,6 @@ h3 {
 }
 
 p {
-	font-size: 0.9rem;
 	color: rgb(0, 0, 0);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
@@ -86,7 +95,7 @@ p {
 
 body {
 	gap: 20px;
-	line-height: 1.5rem;
+	line-height: 1.7rem;
 	background-color: black;
 }
 
