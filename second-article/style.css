@@ -1,3 +1,9 @@
+.styled-line {
+	border: none;
+	border-top: 2px solid  #ffff00;
+	width: 100%;
+}
+
 h1 {
 	font-size: 6rem;
 	line-height: 6rem;
@@ -25,6 +31,16 @@ h3 {
 	font-weight: 600;
 	padding-top: 1em;
 	color:  #ffff00;
+}
+
+.lined-list {
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.lined-list li {
+	padding-left: 20px;
+	margin-bottom: 10px;
 }
 
 p {
@@ -104,5 +120,13 @@ body {
 
 .mobile-nav .menu-toggle:checked + .hamburger + .menu {
 	display: flex;
+}
+
+.article-container {
+	grid-template-columns: 1fr;
+	padding: 20px;
+	gap: 15px;
+	max-width: 100%;
+	color: white;
 }
 
