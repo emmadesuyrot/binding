@@ -91,7 +91,7 @@ body {
 }
 
 .mobile-nav {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
 	position: relative;
@@ -104,8 +104,8 @@ body {
 
 .mobile-nav .hamburger {
 	display: block;
-	font-size: 1.5rem;
-	color: white;
+	font-size: 2.5rem;
+	color:  #ffff00;
 	cursor: pointer;
 	text-align: right;
 	}
@@ -161,24 +161,12 @@ body {
 }
 
 @media(min-width: 780px) {
-	.mobile-nav .hamburger {
-		display: none;
-	}
-
-	.mobile-nav li {
-		margin: 0 10px;
-	}
 }
 
 @media screen and (min-width: 1280px) {
 
 	:root {
 		--spacing:1.5rem;
-	}
-
-	.mobile-nav a {
-		padding: 10px 30px;
-		font-size: 1.125rem;
 	}
 
 	h1 {
