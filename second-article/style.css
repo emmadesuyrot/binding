@@ -4,6 +4,23 @@
 	width: 100%;
 }
 
+.bold {
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 300;
+	margin-bottom: 1rem;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color:  #ffff00;
+}
+
+.author {
+	font-weight: 500;
+	margin-top: 20px;
+	color: #ffff00;
+}
+
 h1 {
 	font-size: 6rem;
 	line-height: 6rem;
@@ -30,7 +47,11 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
 	padding-top: 1em;
-	color:  #ffff00;
+	color: #ffff00;
+}
+
+.highlight-yellow {
+	color: #ffff00;
 }
 
 .lined-list {
@@ -39,8 +60,19 @@ h3 {
 }
 
 .lined-list li {
-	padding-left: 20px;
+	position: relative;
+	padding-left: 25px;
 	margin-bottom: 10px;
+}
+
+.lined-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.5em; 
+	width: 10px;
+	height: 10px;
+	background-color: #ffff00;
 }
 
 p {
@@ -56,6 +88,12 @@ body {
 	gap: 20px;
 	line-height: 1.7rem;
 	background-color: black;
+}
+
+footer {
+	font-family: 'Raleway', sans-serif;
+	padding: 20px;
+	color: #ffff00;
 }
 
 .mobile-nav {
@@ -128,5 +166,104 @@ body {
 	gap: 15px;
 	max-width: 100%;
 	color: white;
+}
+
+@media(min-width: 780px) {
+	
+	.mobile-nav .hamburger {
+		font-size: 4rem;
+		padding-right: 250px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+
+	:root {
+		--spacing:1.5rem;
+	}
+
+	h1 {
+		font-size: 4.6rem;
+		grid-column: 1 / -1;
+	}
+
+	.author {
+		grid-column: 1 / -1;
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		line-height: 3.4rem;
+		grid-column: 1 / -1;
+	}
+
+	h3 {
+		font-size: 2.3rem;
+		line-height: 2.9rem;
+		padding-top: 0;
+	}
+
+	p {
+		font-size: 1.2rem;
+		line-height: 1.8;
+	}
+
+	body {
+		font-size: 1.4rem;
+		line-height: 1.8;
+	}
+
+	blockquote {
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 15px;
+		padding-bottom: 8px;
+		display: inline-block;
+	}
+
+	.styled-line {
+		border: none;
+		border-top: 3px solid  #ffff00;
+		width: 100%;
+		grid-column: 1 / -1
+	}
+
+	footer {
+		padding-left: 250px;
+	}
+
+	.content-1 {
+		grid-column: 1 / 4;
+	}
+
+	.content-2, .content-3, .content-4 {
+		grid-column: 1 / 4;
+	}
+
+	.bold {
+		grid-column: 2 / 5;
+	}
+
+	.bold, .question {
+		font-size: 2rem;
+		line-height: 3.4rem;
+		grid-column: 2 / 5;
+	}
+
+	.h3-0, .h3-1, .h3-2, .h3-3 {
+		grid-column: 1 / -1;
+	}
+
+	.article-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 60px;
+		padding: 250px;
+		padding-bottom: 0;
+	}
+
 }
 
