@@ -161,9 +161,8 @@ body {
 }
 
 @media(min-width: 780px) {
-	.mobile-nav ul {
-		flex-direction: row;
-		justify-content: center;
+	.mobile-nav .hamburger {
+		display: none;
 	}
 
 	.mobile-nav li {
