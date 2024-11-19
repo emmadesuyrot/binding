@@ -13,6 +13,7 @@ h1 {
 	margin-bottom: 20px;
 	display: block;
 	transform: skew(-3deg);
+	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	line-height: 1.4;
 	word-wrap: break-word;
@@ -23,10 +24,13 @@ p {
 	color: #ffffff;
 	padding-top: 20px;
 	padding-bottom: 30px;
+	font-family: 'Raleway', sans-serif;
 }
 
 nav {
 	background: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 	padding: 10px;
 	transform: rotate(-2deg);
 	width: 100%;
