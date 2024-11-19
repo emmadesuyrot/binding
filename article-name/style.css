@@ -6,9 +6,6 @@ p {
 	color: white;
 }
 
-
-
-
 .mobile-nav {
 	background-color: rgb(0, 0, 0);
 	padding: 10px;
@@ -71,5 +68,15 @@ p {
 
 .mobile-nav .menu-toggle:checked + .hamburger + .menu {
 	display: flex;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color:  #ffff00;
+	border-radius: 50%;
+	font-size: 2rem;
+	z-index: 1000;
 }
 

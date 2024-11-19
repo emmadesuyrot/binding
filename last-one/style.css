@@ -22,16 +22,6 @@
 	text-decoration-color:  #ffff00;
 }
 
-.back-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	color:  #ffff00;
-	border-radius: 50%;
-	font-size: 2rem;
-	z-index: 1000;
-}
-
 footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
