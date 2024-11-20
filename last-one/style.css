@@ -2,6 +2,7 @@
 	font-weight: 500;
 	margin-top: 20px;
 	color: #ffff00;
+
 }
 
 .styled-line {
@@ -19,6 +20,16 @@
 	color: white;
 	text-decoration: underline;
 	text-decoration-color:  #ffff00;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color:  #ffff00;
+	border-radius: 50%;
+	font-size: 2rem;
+	z-index: 1000;
 }
 
 footer {
