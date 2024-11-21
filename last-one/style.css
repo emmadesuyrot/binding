@@ -58,9 +58,7 @@ blockquote {
 h1 {
 	font-size: 6rem;
 	line-height: 6rem;
-	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
-	color: #ffff00;
 }
 
 h2 {
@@ -75,28 +73,21 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
-	line-height: 2rem;
 	margin-bottom: var(--spacing);
-	font-family: 'Libre Baskerville', serif;
 	font-weight: 600;
 	padding-top: 1em;
-	color:  #ffff00;
 }
 
 p {
-	color: rgb(0, 0, 0);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	text-align: left;
 	margin-bottom: 1rem;
-	color: white;
 }
 
 body {
 	gap: 20px;
 	line-height: 1.7rem;
-	background-color: black;
 }
 
 .mobile-nav {
