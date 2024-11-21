@@ -183,8 +183,9 @@ footer {
 		padding: 15px 20px;
 	}
 
-	.mobile-nav .hamburger {
- 		display: block;
+	.mobile-nav {
+		padding-right: 250px;
+		padding-left: 250px;
 	}
 
 	.article-container {
@@ -280,6 +281,10 @@ footer {
 	.mobile-nav {
 		padding-right: 250px;
 		padding-left: 250px;
+	}
+
+	.mobile-nav .hamburger {
+		font-size: 3rem;
 	}
 
 	.article-container {

@@ -285,6 +285,15 @@ body {
 		grid-column: 1 / -1;
 	}
 
+	.mobile-nav {
+		padding-right: 250px;
+		padding-left: 250px;
+	}
+
+	.mobile-nav .hamburger {
+		font-size: 3rem;
+		}
+
 	.article-container {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);

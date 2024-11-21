@@ -56,7 +56,15 @@ nav li {
 }
 
 nav li:first-child {
-	transform: rotate(-20deg);
+	transform: rotate(-5deg);
+}
+
+nav li:nth-child(2) {
+	transform: rotate(10deg);
+}
+
+nav li:nth-child(3) {
+	transform: rotate(-8deg);
 }
 
 footer {
