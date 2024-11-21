@@ -24,7 +24,6 @@ body {
 	font-size: var(--root-size);
 	background-color: rgb(15, 15, 15);
 	line-height: var(--line-height);
-	color: whitesmoke;
 }
 
 .back-to-top {
@@ -37,6 +36,10 @@ body {
 	z-index: 1000;
 }
 
-
+@media screen and (min-width: 1280px) {
+	.back-to-top {
+		padding-right: 240px;
+	}
+}
 
 
