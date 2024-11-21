@@ -50,9 +50,12 @@ blockquote {
 		margin-bottom: 20px;
 		display: block;
 		transform: skew(-3deg);
-		text-align: center;
 		line-height: 1.4;
 		word-wrap: break-word;
+}
+
+cite {
+	color: #76764d;
 }
 
 h1 {
