@@ -140,9 +140,9 @@ body {
 	}
 
 .mobile-nav .menu a:hover {
-	background-color: rgb(15, 15, 15)6;
-	color: #b1b1b1;
-	}
+	background-color: rgba(234, 255, 0, 0.4);
+	color: #ffff00;
+}
 
 .mobile-nav .menu a.active-nav {
 	background-color: #ffff00;
