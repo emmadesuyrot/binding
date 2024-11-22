@@ -6,6 +6,12 @@ body {
 	background-color: #000;
 }
 
+h2 {
+	color: #ffff00;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.8rem;
+}
+
 h1 {
 	color: #000000;
 	background-color: #ffff00;
@@ -28,7 +34,11 @@ p {
 	padding-bottom: 30px;
 	font-family: 'Raleway', sans-serif;
 	margin: 20px;
+	margin-top: 0;
 	padding: 20px;
+	padding-top: 10;
+	text-align: center;
+	place-items: center;
 }
 
 nav {
