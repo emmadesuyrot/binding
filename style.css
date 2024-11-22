@@ -99,5 +99,17 @@ footer p:last-child {
 
 @media (min-width: 1280px) {
 
+	p {
+		max-width: 70ch;
+	}
+
+	footer {
+		font-size: 1rem;
+		text-align: center;
+		place-items: center;
+	}
 	
+	footer p {
+		margin-top: 20px;
+	}
 }
