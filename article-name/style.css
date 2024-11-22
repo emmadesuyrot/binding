@@ -115,9 +115,9 @@ footer {
 	}
 
 .mobile-nav .menu a:hover {
-	background-color: rgb(15, 15, 15);
-	color: #b1b1b1;
-	}
+	background-color: rgb(73, 79, 0);
+	color: #ffffff;
+}
 
 .mobile-nav .menu a.active-nav {
 	background-color: #ffff00;
