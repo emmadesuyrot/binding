@@ -11,6 +11,7 @@
 h1 {
 	font-family: 'Lacquer', sans-serif;
 	color:  #ffff00;
+	
 }
 
 h3 {
@@ -30,7 +31,7 @@ body {
 	color: rgb(0, 0, 0);
 	background-color: #ffff00;
 	padding: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	display: block;
 	transform: skew(-3deg);
 	text-align: center;
