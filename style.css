@@ -67,6 +67,9 @@ nav li:nth-child(3) {
 	transform: rotate(-8deg);
 }
 
+nav li:hover {
+	background-color: #ffff00;
+}
 
 footer {
 	background-color: #ffff00;
