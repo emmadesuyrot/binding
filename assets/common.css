@@ -26,6 +26,18 @@ body {
 	line-height: var(--line-height);
 }
 
+.next-article {
+	color: rgb(0, 0, 0);
+	background-color: #ffff00;
+	padding: 10px;
+	margin-bottom: 5px;
+	display: block;
+	transform: skew(-3deg);
+	text-align: center;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+}
+
 .back-to-top {
 	position: fixed;
 	bottom: 20px;
@@ -38,6 +50,10 @@ body {
 
 @media screen and (min-width: 1280px) {
 	
+	.next-article {
+		grid-column: 1 / -1;
+	}
+
 	.back-to-top {
 		padding-right: 100px;
 	}
