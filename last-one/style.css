@@ -146,11 +146,10 @@ body {
 
 .mobile-nav .menu a.active-nav {
 	background-color: #ffff00;
-	color: rgb(15, 15, 15);
-	font-weight: bold;
+	color:rgb(15, 15, 15);
+	font-family: 'Lacquer', sans-serif;
 	margin-bottom: 20px;
 	display: block;
-	transform: skew(-10deg);
 }
 
 .mobile-nav .menu-toggle:checked + .hamburger + .menu {
