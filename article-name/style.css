@@ -1,19 +1,20 @@
 .author {
 	font-weight: 500;
 	margin-top: 20px;
-	color: #ffff00;
+	color: var(--color-yellow);
 
 }
 
 .styled-line {
 		border: none;
-		border-top: 2px solid #ffff00;
+		border-top: 2px solid var(--color-yellow);
 		width: 100%;
 }
 
 .underline-yellow {
-	text-decoration: underline;
-	text-decoration-color: #a9a964;
+	color: black;
+	font-weight: 500;
+	background-color: var(--color-yellow);
 }
 
 .bold {
@@ -23,8 +24,6 @@
 	font-weight: 300;
 	margin-bottom: 1rem;
 	color: white;
-	text-decoration: underline;
-	text-decoration-color:  #ffff00;
 }
 
 h1 {
@@ -65,7 +64,7 @@ body {
 footer {
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
-	color: #ffff00;
+	color: var(--color-yellow);
 }
 
 .mobile-nav {
@@ -85,7 +84,7 @@ footer {
 .mobile-nav .hamburger {
 	display: block;
 	font-size: 2.5rem;
-	color:  #ffff00;
+	color: var(--color-yellow);
 	cursor: pointer;
 	text-align: right;
 	}
@@ -116,11 +115,11 @@ footer {
 
 .mobile-nav .menu a:hover {
 	background-color: rgba(234, 255, 0, 0.4);
-	color: #ffff00;
+	color: var(--color-yellow);
 }
 
 .mobile-nav .menu a.active-nav {
-	background-color: #ffff00;
+	background-color: var(--color-yellow);
 	color:rgb(15, 15, 15);
 	font-family: 'Lacquer', sans-serif;
 	margin-bottom: 20px;
@@ -136,7 +135,7 @@ footer {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	color:  #ffff00;
+	color: var(--color-yellow);
 	border-radius: 50%;
 	font-size: 2rem;
 	z-index: 1;
@@ -221,7 +220,7 @@ footer {
 
 	.styled-line {
 		border: none;
-		border-top: 3px solid  #ffff00;
+		border-top: 3px solid var(--color-yellow);
 		width: 100%;
 		grid-column: 1 / -1
 	}
