@@ -116,10 +116,6 @@ p {
 	width: 300px;
 }
 
-.article-card:hover {
-	color: aquamarine;
-}
-
 .article-title {
 	font-size: 2rem;
 	color: var(--color-yellow, #fdfd96);
