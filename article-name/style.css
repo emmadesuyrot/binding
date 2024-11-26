@@ -24,7 +24,9 @@
 	font-weight: 300;
 	margin-bottom: 1rem;
 	color: white;
-	
+}
+#bold{
+	background-color: var(--color-yellow);	
 }
 
 h1 {
