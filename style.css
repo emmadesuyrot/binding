@@ -1,29 +1,25 @@
 body {
-	padding: 10px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	background-color: #000;
+	background-color: var(--color-sombre-black);
 }
 
 h2 {
-	color: #ffff00;
+	color: var(--color-yellow);
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1.4rem;
+	padding-left: 40px;
 }
 
 h1 {
-	color: #000000;
-	background-color: #ffff00;
-	padding: 20px;
-	margin-bottom: 20px;
+
+	color: var(--color-yellow);
+	margin-bottom: 40px;
 	font-weight: 800;
-	display: block;
-	transform: skew(-3deg);
 	text-align: center;
 	line-height: 1.4;
 	word-wrap: break-word;
-	font-size: 10vw;
+	font-size: 4.4rem;
 }
 
 p {
@@ -37,52 +33,73 @@ p {
 	margin-top: 0;
 	padding: 20px;
 	padding-top: 10;
-	text-align: center;
-	place-items: center;
 }
 
-nav {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+.mobile-nav {
+	background-color: var(--color-yellow);
 	padding: 10px;
-	width: 100%;
-	max-width: 100%;
-	/* margin-top:10px; */
+	font-family: 'Raleway', sans-serif;
+	top: 0;
+	position: sticky;
+	z-index: 1000;
 }
 
-nav ul {
+/* hide checkbox */
+.mobile-nav .menu-toggle {
+	display: none;
+}
+
+.mobile-nav .hamburger {
+	display: block;
+	font-size: 2.5rem;
+	color: var(--color-sombre-black);
+	cursor: pointer;
+	text-align: right;
+	}
+
+.mobile-nav .menu {
 	list-style: none;
-	display: flex;
+	margin: 0;
+	padding: 0;
+	display: none;
 	flex-direction: column;
-	gap: 20px;
 	align-items: center;
-	list-style: none;
-}
+	}
 
-nav li {
+.mobile-nav .menu li {
+	width: 100%;
+	text-align: center;
 	margin: 5px 0;
-	background: #fff;
-	padding: 30px 90px;
 }
 
-nav li:first-child {
-	transform: rotate(-5deg);
+.mobile-nav .menu a {
+	display: block;
+	padding: 12px 20px;
+	color: var(--color-sombre-black);
+	font-size: 1rem;
+	font-weight: 500;
+	text-decoration: none;
+	}
+
+.mobile-nav .menu a:hover {
+	background-color: rgba(234, 255, 0, 0.4);
+	color: var(--color-yellow);
 }
 
-nav li:nth-child(2) {
-	transform: rotate(10deg);
+.mobile-nav .menu a.active-nav {
+	background-color: var(--color-sombre-black);
+	color: var(--color-yellow);
+	font-family: 'Lacquer', sans-serif;
+	margin-bottom: 20px;
+	display: block;
 }
 
-nav li:nth-child(3) {
-	transform: rotate(-8deg);
-}
-
-nav li:hover {
-	background-color: #ffff00;
+.mobile-nav .menu-toggle:checked + .hamburger + .menu {
+	display: flex;
 }
 
 footer {
-	background-color: #ffff00;
+	background-color: var(--color-yellow);
 	width: 100%;
 	text-align: center;
 }
