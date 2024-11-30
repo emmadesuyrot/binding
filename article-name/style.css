@@ -26,7 +26,9 @@
 	color: white;
 }
 #bold{
-	background-color: var(--color-yellow);	
+	background-color: var(--color-yellow);
+	color: black;
+	padding: 1px;
 }
 
 h1 {
