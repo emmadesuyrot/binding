@@ -7,15 +7,19 @@ body {
 h2 {
 	color: var(--color-yellow);
 	font-family: 'Libre Baskerville', serif;
-	font-size: 1.4rem;
-	padding-left: 40px;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	max-width: 100%;
+	margin: 0 auto 1.2rem auto;
+	text-align: left;
+	padding: 0 16px;
 }
 
 .styled-line {
 	border: none;
 	border-top: 4px solid var(--color-yellow);
 	width: 100%;
-	padding: 10px;
+	padding: 20px;
 }
 
 
@@ -38,16 +42,14 @@ h1 {
 }
 
 p {
-	font-size: 1.2rem;
 	line-height: 1.6;
 	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 30px;
 	font-family: 'Raleway', sans-serif;
-	margin: 20px;
-	margin-top: 0;
-	padding: 20px;
-	padding-top: 10;
+	font-size: 1rem;
+	line-height: 1.6;
+	max-width: 100%;
+	padding: 0 16px;
+	margin: 0 auto 40px auto;
 }
 
 .mobile-nav {
@@ -119,7 +121,7 @@ p {
 	flex-wrap: wrap;
 	gap: 20px;
 	justify-content: center;
-	padding: 40px;
+	padding-bottom: 40px;
 }
 
 .article-card {
@@ -174,11 +176,24 @@ footer p {
 @media (min-width: 1280px) {
 
 	p {
-		max-width: 70ch;
+		font-size: 1.125rem;
+		line-height: 1.8;
+		max-width: 800px;
+		padding: 0;
+		margin: 0 auto 2rem auto;
 	}
 
 	h1 {
 		font-size: 6rem;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+		line-height: 1.2;
+		max-width: 720px;
+		margin: 0 auto 1.5rem auto;
+		text-align: left;
+		padding: 0 20px;
 	}
 
 	footer {
