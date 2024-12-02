@@ -154,7 +154,40 @@ footer {
 	color: white;
 }
 
-@media(min-width: 780px) {
+@media(min-width: 768px) {
+
+	.question, .bold {
+		font-size: 1.5rem;
+		line-height: 2rem;
+		border-width: 2px;
+	}
+
+	.author {
+		font-size: 1.2rem;
+		margin-top: 30px;
+	}
+
+	h1 {
+		font-size: 4.6rem;
+		line-height: 5rem;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+		line-height: 2.8rem;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	h3 {
+		font-size: 4rem;
+		line-height: 4.5rem;
+		padding-top: 30px;
+	}
+
+	footer {
+		padding: 50px;
+	}
 	
 	.mobile-nav .hamburger {
 		font-size: 2rem;
@@ -181,6 +214,15 @@ footer {
 
 	.mobile-nav .hamburger {
  		display: block;
+	}
+
+	.article-container {
+		grid-template-columns: 1fr;
+		padding: 50px;
+		gap: 15px;
+		max-width: 100%;
+		color: white;
+		transition:0.3s;
 	}
 
 }
