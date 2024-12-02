@@ -186,8 +186,8 @@ footer {
 	}
 
 	h1 {
-		font-size: 4.6rem;
-		line-height: 5rem;
+		font-size: 6rem;
+		line-height: 6.2rem;
 	}
 
 	h2 {
@@ -253,6 +253,8 @@ footer {
 	}
 
 	h1 {
+		font-size: 8rem;
+		line-height: 9rem;
 		grid-column: 1 / -1;
 	}
 
@@ -271,6 +273,8 @@ footer {
 		font-size: 6rem;
 		line-height: 6rem;
 		grid-column: 1 / -1;
+		padding-top: 0;
+		margin-bottom: 0;
 	}
 
 	p {
