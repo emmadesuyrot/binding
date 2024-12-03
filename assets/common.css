@@ -8,6 +8,9 @@
 	--spacing: 0.9rem;
 	--color-yellow: #CCFF00;
 	--color-sombre-black: rgb(15, 15, 15);
+	--color-hot-pink: hotpink;
+	--color-red: red;
+	--color-light-blue: rgb(0, 255, 234);
 }
 
 h1 {

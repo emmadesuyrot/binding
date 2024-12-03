@@ -22,6 +22,10 @@ h1 {
 	padding: 30px;
 }
 
+h1:hover {
+	color: var(--color-hot-pink);
+}
+
 .introduction-style {
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -128,6 +132,7 @@ p {
 
 .article-title:hover {
 	font-family: 'Lacquer', sans-serif;
+	color: var(--color-hot-pink);
 }
 
 .article-author {
