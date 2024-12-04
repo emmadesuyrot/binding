@@ -25,6 +25,7 @@
 	margin-bottom: 1rem;
 	color: white;
 }
+
 #bold {
 	background-color: var(--color-yellow);
 	color: black;
@@ -190,6 +191,10 @@ footer {
 		padding-top: 30px;
 	}
 
+	#bold {
+		line-height: 40px;
+	}
+
 	footer {
 		padding: 50px;
 	}
@@ -269,6 +274,10 @@ footer {
 	body {
 		font-size: 1.4rem;
 		line-height: 1.8;
+	}
+
+	#bold {
+		line-height: 50px;
 	}
 
 	.styled-line {
