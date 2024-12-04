@@ -116,10 +116,25 @@ p {
 
 .article-card {
 	border: 2px solid;
-	border-color: white;
+	border-color: var(--color-yellow, #fdfd96);
 	padding: 20px;
 	width: 300px;
 	background-color: #fdfd9620;
+}
+
+.article-card:nth-child(1):hover {
+	border-color: var(--color-light-blue);
+	background-color: rgba(0, 255, 234, 0.256);
+}
+
+.article-card:nth-child(2):hover {
+	border-color: var(--color-red);
+	background-color: rgba(255, 0, 0, 0.194);
+}
+
+.article-card:nth-child(3):hover {
+	border-color: var(--color-hot-pink);
+	background-color: rgba(255, 105, 180, 0.348);
 }
 
 .article-title {
@@ -130,10 +145,21 @@ p {
 	line-height: 2.1rem;
 }
 
-.article-title:hover {
+.article-card:first-of-type .article-title:hover {
+	font-family: 'Lacquer', sans-serif;
+	color: var(--color-light-blue);
+}
+
+.article-card:nth-of-type(2) .article-title:hover {
+	font-family: 'Lacquer', sans-serif;
+	color: var(--color-red);
+}
+
+.article-card:nth-of-type(3) .article-title:hover {
 	font-family: 'Lacquer', sans-serif;
 	color: var(--color-hot-pink);
 }
+
 
 .article-author {
 	font-size: 1rem;

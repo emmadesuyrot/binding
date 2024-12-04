@@ -14,7 +14,7 @@
 .underline-yellow {
 	color: black;
 	font-weight: 450;
-	background-color: var(--color-yellow);
+	background-color: var(--color-light-blue);
 }
 
 .bold {
@@ -25,10 +25,11 @@
 	margin-bottom: 1rem;
 	color: white;
 }
-#bold{
+#bold {
 	background-color: var(--color-yellow);
 	color: black;
 	padding: 1px;
+	line-height: 35px;
 }
 
 h1 {
