@@ -120,6 +120,7 @@ p {
 	padding: 20px;
 	width: 300px;
 	background-color: #fdfd9620;
+	transition: all 0.3s ease;
 }
 
 .article-card:nth-child(1):hover {
@@ -143,19 +144,20 @@ p {
 	font-weight: bold;
 	font-family: 'Libre Baskerville', serif;
 	line-height: 2.1rem;
+	transition: all 0.3s ease;
 }
 
-.article-card:first-of-type .article-title:hover {
+.article-card:nth-child(1):hover .article-title {
 	font-family: 'Lacquer', sans-serif;
 	color: var(--color-light-blue);
 }
 
-.article-card:nth-of-type(2) .article-title:hover {
+.article-card:nth-child(2):hover .article-title {
 	font-family: 'Lacquer', sans-serif;
 	color: var(--color-red);
 }
 
-.article-card:nth-of-type(3) .article-title:hover {
+.article-card:nth-child(3):hover .article-title {
 	font-family: 'Lacquer', sans-serif;
 	color: var(--color-hot-pink);
 }
@@ -167,6 +169,19 @@ p {
 	padding: 10px 0;
 	margin: 0;
 	text-align: left;
+	transition: color 0.3s ease;
+}
+
+.article-card:nth-child(1):hover .article-author {
+	color: var(--color-light-blue);
+}
+
+.article-card:nth-child(2):hover .article-author {
+	color: var(--color-red);
+}
+
+.article-card:nth-child(3):hover .article-author {
+	color: var(--color-hot-pink);
 }
 
 .article-description {
@@ -175,7 +190,21 @@ p {
 	margin: 0;
 	padding: 0;
 	text-align: left;
+	transition: opacity 0.3s ease; /* Add subtle opacity transition */
 }
+
+.article-card:nth-child(1):hover .article-description {
+	color: var(--color-light-blue);
+}
+
+.article-card:nth-child(2):hover .article-description {
+	color: var(--color-red);
+}
+
+.article-card:nth-child(3):hover .article-description {
+	color: var(--color-hot-pink);
+}
+
 
 .styled-line {
 	border: none;
