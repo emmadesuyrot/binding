@@ -135,7 +135,6 @@ footer {
 .mobile-nav .menu li {
 	width: 100%;
 	text-align: center;
-	margin: 5px 0;
 }
 
 .mobile-nav .menu a {
@@ -156,7 +155,6 @@ footer {
 	background-color: var(--color-yellow);
 	color: var(--color-sombre-black);
 	font-family: 'Lacquer', sans-serif;
-	margin-bottom: 20px;
 	display: block;
 }
 
@@ -231,7 +229,7 @@ footer {
 
 	.mobile-nav .menu a {
 		font-size: 1.2rem;
-		padding: 15px 20px;
+		padding: 20px 30px;
 	}
 
 	.mobile-nav {

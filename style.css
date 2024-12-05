@@ -37,7 +37,7 @@ p {
 	line-height: 1.6;
 	max-width: 100%;
 	padding: 0 30px;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 50px auto;
 	text-align: center;
 	align-items: center;
 }
@@ -76,7 +76,6 @@ p {
 .mobile-nav .menu li {
 	width: 100%;
 	text-align: center;
-	margin: 5px 0;
 }
 
 .mobile-nav .menu a {
@@ -97,7 +96,6 @@ p {
 	background-color: var(--color-sombre-black);
 	color: var(--color-yellow);
 	font-family: 'Lacquer', sans-serif;
-	margin-bottom: 20px;
 	display: block;
 }
 
@@ -221,12 +219,12 @@ footer {
 }
 
 footer p {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	color: #000;
 	padding: 15px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .articles, .introduction-style, footer {
@@ -253,7 +251,7 @@ footer p {
 
 	.mobile-nav .menu a {
 		font-size: 1.2rem;
-		padding: 12px 30px;
+		padding: 20px 30px;
 	}
 
 	.articles {
@@ -267,7 +265,9 @@ footer p {
 	}
 
 	footer p {
-		font-size: 1.1rem;
+		font-size: 0.8rem;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 }
 
@@ -310,7 +310,9 @@ footer p {
 	}
 	
 	footer p {
-		margin-top: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 1rem;
 	}
 
 	.mobile-nav .menu a {
@@ -318,8 +320,6 @@ footer p {
 	}
 
 	.mobile-nav {
-		padding-right: 250px;
-		padding-left: 250px;
 		position: sticky;
 		top: 0;
 		left: 0;
