@@ -1,8 +1,6 @@
 .author {
 	font-weight: 500;
-	margin-top: 20px;
 	color: var(--color-yellow);
-
 }
 
 .styled-line {
@@ -181,7 +179,7 @@ body {
 
 	.author {
 		font-size: 1.2rem;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	h1 {
@@ -264,6 +262,7 @@ body {
 	.author {
 		grid-column: 1 / -1;
 		font-size: 1.5rem;
+		margin-top: 0;
 	}
 
 	h2 {
