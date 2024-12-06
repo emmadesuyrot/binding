@@ -399,6 +399,10 @@ footer p {
 	.article-container {
 		transition:0.3s;
 	}
+
+	.popup-text-1, .popup-text-2, .popup-text-3 {
+		font-size: 70px;
+	}
 }
 
 @media (min-width: 1280px) {
@@ -463,5 +467,9 @@ footer p {
 		border-color: var(--color-yellow);
 		padding: 20px;
 		width: 300px;
+	}
+
+	.popup-text-1, .popup-text-2, .popup-text-3 {
+		font-size: 90px;
 	}
 }
