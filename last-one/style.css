@@ -102,10 +102,11 @@ body {
 
 .mobile-nav {
 	background-color: rgb(15, 15, 15);
-	padding: 10px;
+	padding: 20px 20px;
 	font-family: 'Raleway', sans-serif;
 	top: 0;
 	position: sticky;
+	justify-content: space-between;
 	z-index: 1;
 }
 
