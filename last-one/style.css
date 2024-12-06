@@ -4,9 +4,9 @@
 }
 
 .styled-line {
-		border: none;
-		border-top: 2px solid var(--color-yellow);
-		width: 100%;
+	border: none;
+	border-top: 2px solid var(--color-yellow);
+	width: 100%;
 }
 
 .question, .bold {
@@ -28,7 +28,7 @@
 	color: var(--color-yellow);
 	border-radius: 50%;
 	font-size: 2rem;
-	z-index: 1000;
+	z-index: 1;
 }
 
 footer {
@@ -78,8 +78,11 @@ h2 {
 	font-weight: 400;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	/* max-width: 14ch; */
 	color: white;
+}
+
+h3:first-of-type {
+	padding-top: 0;
 }
 
 h3 {
@@ -144,7 +147,7 @@ body {
 	font-size: 1rem;
 	font-weight: 500;
 	text-decoration: none;
-	}
+}
 
 .mobile-nav .menu a:hover {
 	background-color: rgba(234, 255, 0, 0.4);

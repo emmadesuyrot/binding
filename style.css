@@ -188,7 +188,7 @@ p {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	transition: opacity 0.3s ease; /* Add subtle opacity transition */
+	transition: opacity 0.3s ease;
 }
 
 .article-card:nth-child(1):hover .article-description {
