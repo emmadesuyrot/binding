@@ -13,7 +13,7 @@
 .underline-blue {
 	color: white;
 	font-weight: 450;
-	border: 2px solid rgba(0, 255, 234, 0.401);
+	background-color: rgba(0, 255, 234, 0.253);
 	padding: 0.5px;
 }
 
