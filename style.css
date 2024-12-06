@@ -12,6 +12,7 @@ h2 {
 	align-items: center;
 	text-align: center;
 	padding-bottom: 25px;
+	padding-top: 40px;
 }
 
 h1 {
@@ -62,7 +63,7 @@ p {
 	color: var(--color-sombre-black);
 	cursor: pointer;
 	text-align: right;
-	}
+}
 
 .mobile-nav .menu {
 	list-style: none;
@@ -71,7 +72,7 @@ p {
 	display: none;
 	flex-direction: column;
 	align-items: center;
-	}
+}
 
 .mobile-nav .menu li {
 	width: 100%;
@@ -184,7 +185,6 @@ p {
 
 .article-description {
 	font-size: 1rem;
-	color: white;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -202,7 +202,6 @@ p {
 .article-card:nth-child(3):hover .article-description {
 	color: var(--color-hot-pink);
 }
-
 
 .styled-line {
 	border: none;
@@ -232,6 +231,14 @@ footer p {
 	padding-right: 30px;
 }
 
+.article-container {
+	grid-template-columns: 1fr;
+	padding: 20px;
+	gap: 15px;
+	max-width: 100%;
+	color: white;
+}
+
 @media (min-width: 768px) {
 
 	h1 {
@@ -247,6 +254,10 @@ footer p {
 		font-size: 1.1rem;
 		line-height: 1.7;
 		max-width: 58ch;
+	}
+
+	.mobile-nav {
+		padding-right: 50px;
 	}
 
 	.mobile-nav .menu a {
@@ -268,6 +279,10 @@ footer p {
 		font-size: 0.8rem;
 		padding-top: 25px;
 		padding-bottom: 25px;
+	}
+
+	.article-container {
+		transition:0.3s;
 	}
 }
 
@@ -321,14 +336,14 @@ footer p {
 
 	.mobile-nav {
 		position: sticky;
-		top: 0;
-		left: 0;
+		padding-right: 250px;
+		padding-left: 250px;
 		width: 100%;
 	}
 
 	.mobile-nav .hamburger {
 		font-size: 3rem;
-		}
+	}
 
 	.article-card {
 		border: 2px solid;

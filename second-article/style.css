@@ -107,7 +107,7 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	top: 0;
 	position: sticky;
-	z-index: 1000;
+	z-index: 1;
 }
 
 /* hide checkbox */
@@ -184,7 +184,6 @@ footer {
 
 	.author {
 		font-size: 1.2rem;
-		margin-top: 30px;
 	}
 
 	h1 {
@@ -207,10 +206,6 @@ footer {
 
 	footer {
 		padding: 50px;
-	}
-	
-	.mobile-nav .hamburger {
-		font-size: 2rem;
 	}
 
 	.mobile-nav .menu {
@@ -263,7 +258,7 @@ footer {
 	.author {
 		grid-column: 1 / -1;
 		font-size: 1.5rem;
-		margin-top: 0;
+			margin-top: 0;
 	}
 
 	h2 {

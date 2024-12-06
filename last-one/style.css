@@ -106,7 +106,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	top: 0;
 	position: sticky;
-	z-index: 1000;
+	z-index: 1;
 }
 
 /* hide checkbox */
@@ -120,7 +120,7 @@ body {
 	color: var(--color-yellow);
 	cursor: pointer;
 	text-align: right;
-	}
+}
 
 .mobile-nav .menu {
 	list-style: none;
@@ -129,7 +129,7 @@ body {
 	display: none;
 	flex-direction: column;
 	align-items: center;
-	}
+}
 
 .mobile-nav .menu li {
 	width: 100%;
@@ -211,10 +211,6 @@ body {
 		font-size: 1.4rem;
 	}
 
-	.mobile-nav .hamburger {
-		font-size: 2rem;
-	}
-
 	.mobile-nav .menu {
 		width: 100%;
 		position: absolute;
@@ -231,11 +227,11 @@ body {
 
 	.mobile-nav .menu a {
 		font-size: 1.2rem;
-		padding: 20px 20px;
+		padding: 20px 30px;
 	}
 
-	.mobile-nav .hamburger {
- 		display: block;
+	.mobile-nav {
+		padding-right: 50px;
 	}
 
 	.article-container {
