@@ -81,14 +81,14 @@ h2 {
 	color: white;
 }
 
-h3:first-of-type {
-	padding-top: 30px;
-}
-
 h3 {
 	margin-bottom: 30px;
 	font-weight: 600;
 	padding-top: 60px;
+}
+
+h3:first-of-type {
+	padding-top: 30px;
 }
 
 p {
